@@ -32,7 +32,7 @@ type login struct {
 }
 
 type errorneous struct {
-	err interface{}
+	Error interface{}
 }
 
 func main() {
