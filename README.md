@@ -47,11 +47,11 @@ The above API endpoints should return response on success, and in case of failur
 
 ### The Project Structure
 1. main.go - The main point of the project.
-2. The dsmartsys/sqlinterface consists of: 
+2. The go-REST-API-3/sqlinterface consists of: 
     - sqlinterface.go - Contains logic for MySql database interface.
-3. The dsmartsys/util consists of:
+3. The go-REST-API-3/util consists of:
     - util.go - Contains logic for exceptional handling.
-4. The dsmartsys/vendor consists of:
+4. The go-REST-API-3/vendor consists of:
     - vendor.json - Contains all third party packages names and their revisions we use for our need. On fly we can download these packages in our machines using govendor tool.
 
 
