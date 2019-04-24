@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	sqlInterface "dsmartsys/sqlinterface"
-	ut "dsmartsys/util"
+	sqlInterface "go-REST-API-3/sqlinterface"
+	ut "go-REST-API-3/util"
 
 	mx "github.com/gorilla/mux"
 )
